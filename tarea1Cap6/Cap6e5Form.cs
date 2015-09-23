@@ -86,7 +86,7 @@ namespace tarea1Cap6
 
             for (int x = 0; x < Curso - 1; x++)
             {
-                if (salon[x][0] > salon[x + 1][0])
+                if (salon[x][0] < salon[x + 1][0])
                 {
                     ResultadolistBox.Items.Add("La Mayor calificacion es: ");
                     ResultadolistBox.Items.Add(salon[x][0]);//mostrandola en el listbox
